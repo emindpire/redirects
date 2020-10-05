@@ -28,7 +28,7 @@ function getDirs() {
 
 function write(data: string) {
   try {
-    writeFileSync(join(__dirname, "..", "_redirects"), data);
+    writeFileSync(join(__dirname, "..", "public", "_redirects"), data);
     return true;
   } catch (e) {
     console.error(e);
