@@ -14,7 +14,7 @@ async function main() {
       }
     );
 
-    await files.push(dir + file);
+    await files.push("https://" + dir + file);
   });
 
   await write(files.join("\n"));
