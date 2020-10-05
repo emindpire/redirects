@@ -1,0 +1,28 @@
+{
+  "name": "redirects",
+  "version": "0.0.1",
+  "description": "Redirects for the subdomains.",
+  "main": "dist/generate.js",
+  "scripts": {
+    "start": "node dist/generate.js",
+    "build": "tsc -p tsconfig.build.json",
+    "build:watch": "tsc -w -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emindpire/redirects.git"
+  },
+  "keywords": [
+    "redirects",
+    "netlify"
+  ],
+  "author": "Murtaja Ziad <mail@murtajaziad.xyz> (https://murtajaziad.xyz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emindpire/redirects/issues"
+  },
+  "homepage": "https://github.com/emindpire/redirects#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
